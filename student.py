@@ -1,6 +1,6 @@
 class Student:
     def welcome(self):
-    print("Welcome to Student Management System!")
+        print("Welcome to Student Management System!")
 
     def __init__(self, name, roll_number):
         self.name = name
@@ -13,4 +13,5 @@ class Student:
 
 student1 = Student("Shekhar", 101)
 
+student1.welcome()
 student1.display_details()
