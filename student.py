@@ -1,4 +1,6 @@
 class Student:
+    def welcome(self):
+    print("Welcome to Student Management System!")
 
     def __init__(self, name, roll_number):
         self.name = name
